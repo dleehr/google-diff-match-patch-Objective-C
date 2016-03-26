@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37699D0D1CA61FE200C3FA42 /* DiffMatchPatchiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 37699D0C1CA61FE200C3FA42 /* DiffMatchPatchiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37699D141CA61FE300C3FA42 /* DiffMatchPatchiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37699D091CA61FE200C3FA42 /* DiffMatchPatchiOS.framework */; };
 		37699D191CA61FE300C3FA42 /* DiffMatchPatchiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37699D181CA61FE300C3FA42 /* DiffMatchPatchiOSTests.m */; };
-		37699D341CA61FFD00C3FA42 /* DiffMatchPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 37699D231CA61FFD00C3FA42 /* DiffMatchPatch.h */; };
+		37699D341CA61FFD00C3FA42 /* DiffMatchPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 37699D231CA61FFD00C3FA42 /* DiffMatchPatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37699D351CA61FFD00C3FA42 /* DiffMatchPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 37699D241CA61FFD00C3FA42 /* DiffMatchPatch.m */; };
 		37699D361CA61FFD00C3FA42 /* NSString+JavaSubstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 37699D251CA61FFD00C3FA42 /* NSString+JavaSubstring.h */; };
 		37699D371CA61FFD00C3FA42 /* NSString+JavaSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 37699D261CA61FFD00C3FA42 /* NSString+JavaSubstring.m */; };
@@ -43,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		37699D091CA61FE200C3FA42 /* DiffMatchPatchiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DiffMatchPatchiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37699D0C1CA61FE200C3FA42 /* DiffMatchPatchiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiffMatchPatchiOS.h; sourceTree = "<group>"; };
 		37699D0E1CA61FE200C3FA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37699D131CA61FE300C3FA42 /* DiffMatchPatchiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffMatchPatchiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37699D181CA61FE300C3FA42 /* DiffMatchPatchiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiffMatchPatchiOSTests.m; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 		37699D0B1CA61FE200C3FA42 /* DiffMatchPatchiOS */ = {
 			isa = PBXGroup;
 			children = (
-				37699D0C1CA61FE200C3FA42 /* DiffMatchPatchiOS.h */,
 				37699D0E1CA61FE200C3FA42 /* Info.plist */,
 			);
 			path = DiffMatchPatchiOS;
@@ -175,15 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				37699D3E1CA61FFD00C3FA42 /* DiffMatchPatch_Prefix.pch in Headers */,
-				37699D361CA61FFD00C3FA42 /* NSString+JavaSubstring.h in Headers */,
 				37699D341CA61FFD00C3FA42 /* DiffMatchPatch.h in Headers */,
+				37699D361CA61FFD00C3FA42 /* NSString+JavaSubstring.h in Headers */,
 				37699D3F1CA61FFD00C3FA42 /* MinMaxMacros.h in Headers */,
 				37699D3C1CA61FFD00C3FA42 /* NSMutableDictionary+DMPExtensions.h in Headers */,
 				37699D421CA61FFD00C3FA42 /* JXArcCompatibilityMacros.h in Headers */,
 				37699D381CA61FFD00C3FA42 /* NSString+UnicharUtilities.h in Headers */,
 				37699D401CA61FFD00C3FA42 /* DiffMatchPatchCFUtilities.h in Headers */,
 				37699D3A1CA61FFD00C3FA42 /* NSString+UriCompatibility.h in Headers */,
-				37699D0D1CA61FE200C3FA42 /* DiffMatchPatchiOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +472,7 @@
 				37699D1F1CA61FE300C3FA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37699D201CA61FE300C3FA42 /* Build configuration list for PBXNativeTarget "DiffMatchPatchiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +481,7 @@
 				37699D221CA61FE300C3FA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

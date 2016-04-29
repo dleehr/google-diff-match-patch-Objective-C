@@ -2644,7 +2644,7 @@ NS_INLINE NSString * diff_charsToTokenString(NSString *charsString, NSArray *tok
   NSString *patchHeaderEnd = @"@@";
   NSString *optionalValueDelimiter = @",";
   BOOL scanSuccess, hasOptional;
-  NSInteger scannedValue, optionalValue;
+  NSInteger scannedValue = 0, optionalValue;
   NSDictionary *errorDetail = nil;
   NSString *textAtTextPointer;
 
